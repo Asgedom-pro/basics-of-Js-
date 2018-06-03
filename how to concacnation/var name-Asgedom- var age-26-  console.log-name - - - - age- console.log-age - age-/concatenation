@@ -1,0 +1,22 @@
+//how to concatenation two words 
+
+var name='Asgedom';
+var age=26;
+
+console.log(name + ' ' + age);
+console.log(age + age);
+
+
+//the out put is undifined
+var job, isMarried;
+console.log(job);
+
+
+job='driver';
+isMarried=false;
+
+console.log(name + ' is a ' + age + ' years old ' + job + '. Is he married ?' + isMarried + '.');
+
+age='thirty six';
+job='developer';
+console.log(name + 'is a '+ age+'years old '+ job+'.is he married? '+isMarried);
