@@ -1,0 +1,8 @@
+//the usage of prompt
+var lastName=prompt('what is the last name');
+console.log(lastName);
+
+
+//the usage of alert it helps to test or debug 
+alert(name + 'is a '+ age+'years old '+ job+'.is he married? '+isMarried);
+
