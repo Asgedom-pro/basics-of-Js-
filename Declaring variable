@@ -1,0 +1,20 @@
+// this is a single comment 
+
+/* this is a double
+comment
+*/
+var name = 'Asgedom';
+console.log(name);
+var lastName='Hailemariam';
+console.log(lastName);
+
+var age=26;
+console.log(age);
+
+var fullAge=true;
+console.log(fullAge);
+
+var fullAge=false;
+console.log(fullAge);
+
+*/
