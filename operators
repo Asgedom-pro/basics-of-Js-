@@ -1,0 +1,19 @@
+var now=2018;
+var birthYear=now - 26;
+
+birthYear=now- 26 *2;
+console.log(birthYear);
+
+var ageAsgedom = 30;
+var agemark=30;
+
+ageAsgedom=(3 + 5)*4 - 6;
+//ageAsgedom=agemark=26;
+//ageAsgedom=26;
+
+ageAsgedom++;
+agemark*=2;
+agemark=agemark*2;
+
+console.log(ageAsgedom);
+console.log(agemark);
