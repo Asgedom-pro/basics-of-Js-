@@ -1,0 +1,33 @@
+var hightJone=182;
+var hightMike=165;
+var ageJone=26;
+var ageMike=29;
+
+var scoreJone=hightJone + 5 * ageJone;
+var scoreMike=hightMike + 5 * ageMike;
+/*
+if (scoreJone > scoreMike){
+    console.log("Jone Wins the game with "+ scoreJone + ' points!');
+}
+else if(scoreMike > scoreJone){
+    console.log("Mike wins the game with "+ scoreMike + ' points!');
+}
+else if (scoreJone===scoreMike){
+    console.log('This is a draw');
+
+}
+*/
+
+var heightMary = 158;
+var agemary = 31;
+var scoreMery=heightMary + 5 * agemary;
+
+if(scoreJone>scoreMery && scoreJone>scoreMike){
+    console.log('Jone wins the game with' + scoreJone + 'points!');
+}else if(scoreMike > scoreJone && scoreMike > scoreMery){
+    console,log('Mike wins the game with' + scoreMike + 'Points!');
+}else if (scoreMery > scoreJone && scoreMike > scoreMike){
+    console.log('Mery wins the game with' + scoreMery + 'Points!');
+}else{
+    console.log('It\'s a deaw.');
+}
